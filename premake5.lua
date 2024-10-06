@@ -17,3 +17,8 @@ project "Expense-Tracker"
         "src/Public/**.h",
         "src/**.cpp"
     }
+
+    includedirs
+    {
+        "src/Public/"
+    }
